@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="RegressionSuite" duration-ms="29696" started-at="2021-04-23T07:12:36Z" finished-at="2021-04-23T07:13:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29696" started-at="2021-04-23T07:12:36Z" finished-at="2021-04-23T07:13:06Z">
+      <class name="tests.EbayTest">
+        <test-method status="PASS" signature="setupMethods(java.lang.reflect.Method)[pri:0, instance:tests.EbayTest@7d9d1a19]" name="setupMethods" is-config="true" duration-ms="1368" started-at="2021-04-23T07:12:56Z" finished-at="2021-04-23T07:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EbayTest.Ebay_ProductSearchTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethods -->
+        <test-method status="PASS" signature="Ebay_ProductSearchTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:tests.EbayTest@7d9d1a19]" name="Ebay_ProductSearchTest" duration-ms="7966" started-at="2021-04-23T07:12:57Z" data-provider="Ebay" finished-at="2021-04-23T07:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.ebay.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Apple Watches]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Consumer Electronics]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ebay_ProductSearchTest -->
+        <test-method status="PASS" signature="closeMethods(java.lang.reflect.Method)[pri:0, instance:tests.EbayTest@7d9d1a19]" name="closeMethods" is-config="true" duration-ms="921" started-at="2021-04-23T07:13:05Z" finished-at="2021-04-23T07:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.EbayTest.Ebay_ProductSearchTest(java.lang.String,java.lang.String,java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethods -->
+      </class> <!-- tests.EbayTest -->
+      <class name="tests.FlipkartTest">
+        <test-method status="PASS" signature="StartSuite()[pri:0, instance:tests.FlipkartTest@4883b407]" name="StartSuite" is-config="true" duration-ms="16" started-at="2021-04-23T07:12:36Z" finished-at="2021-04-23T07:12:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- StartSuite -->
+        <test-method status="PASS" signature="setupMethods(java.lang.reflect.Method)[pri:0, instance:tests.FlipkartTest@4883b407]" name="setupMethods" is-config="true" duration-ms="2245" started-at="2021-04-23T07:12:36Z" finished-at="2021-04-23T07:12:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FlipkartTest.FlipkartHomePage_LinkTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupMethods -->
+        <test-method status="PASS" signature="FlipkartHomePage_LinkTest(java.lang.String)[pri:0, instance:tests.FlipkartTest@4883b407]" name="FlipkartHomePage_LinkTest" duration-ms="16283" started-at="2021-04-23T07:12:39Z" data-provider="Flipkart" finished-at="2021-04-23T07:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://flipkart.com ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlipkartHomePage_LinkTest -->
+        <test-method status="PASS" signature="closeMethods(java.lang.reflect.Method)[pri:0, instance:tests.FlipkartTest@4883b407]" name="closeMethods" is-config="true" duration-ms="881" started-at="2021-04-23T07:12:55Z" finished-at="2021-04-23T07:12:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.FlipkartTest.FlipkartHomePage_LinkTest(java.lang.String) throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeMethods -->
+        <test-method status="PASS" signature="EndSuite()[pri:0, instance:tests.FlipkartTest@4883b407]" name="EndSuite" is-config="true" duration-ms="0" started-at="2021-04-23T07:13:06Z" finished-at="2021-04-23T07:13:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndSuite -->
+      </class> <!-- tests.FlipkartTest -->
+    </test> <!-- Test -->
+  </suite> <!-- RegressionSuite -->
+</testng-results>
